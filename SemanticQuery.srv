@@ -1,0 +1,11 @@
+# Request
+string query
+---
+# Response
+bool success
+string place_name
+float64 x
+float64 y
+float64 yaw
+string reason
+

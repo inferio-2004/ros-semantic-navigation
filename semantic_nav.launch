@@ -1,0 +1,7 @@
+<launch>
+  <arg name="kb_path" default="$(find my_robot)/kb/semantic_kb.html"/>
+  <node pkg="my_robot" type="semantic_nav_server.py" name="semantic_nav_server" output="screen">
+    <param name="kb_html_path" value="$(arg kb_path)"/>
+  </node>
+</launch>
+
